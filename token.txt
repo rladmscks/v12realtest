@@ -1,0 +1,51 @@
+ODY5Nzk5NDc2MzY0MTg1NjEx.YQDd4w.wElnbld9cwOPHFnvzY09IJ-K4q8
+
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on('ready', () => {
+  console.log(`${client.user.username} 에 로그인 되었습니다.`);
+});
+
+client.on('message', msg => {
+  if (msg.content === '안녕') {
+    msg.reply('안녕하세요!');
+  }
+});
+
+client.login('ODY5Nzk5NDc2MzY0MTg1NjEx.YQDd4w.wElnbld9cwOPHFnvzY09IJ-K4q8');
+client.user.setActivity('l!help | Lotty Offcial Discord', { type: 'WATCHING' })
+node index.js
+
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on('ready', () => {
+  console.log(`${client.user.username} 에 로그인 되었습니다.`);
+});
+
+client.on('message', msg => {
+  if (msg.content === 't!안녕') {
+    msg.reply('Heeeelllo');
+  }
+});
+
+client.login('ODc1OTU2MzI5OTUxNDA0MDYy.YRdD5w.B12yNP5YuMvqWXwdTKbb2gnKI_I');
+
+client.user.setActivity('이벤트 봇', { type: 'PLAYING' })
+
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on('ready', () => {
+  console.log(`${client.user.username} 에 로그인 되었습니다.`);
+});
+
+client.on('message', msg => {
+  if (msg.content === 'ㅇ') {
+    msg.reply('ㅇㅇ');
+  }
+});
+
+client.login('ODgzMTU5NzU4NTMyNjUzMDg3.YTF4ng.x29_ZgRSYjo53U4onehU31ogRT8');
+node index.js Sagak Premium 
